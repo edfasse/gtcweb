@@ -1,0 +1,215 @@
+/* Estilo para a faixa de preço e duração */
+.course-details {
+    position: relative;
+    bottom: 100%; /* Fica acima do botão */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(18, 18, 19, 0.8);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    display: none; /* Inicialmente oculto */
+    z-index: 10; /* Garantir que fique acima do botão */
+    width: 250px; /* Ajuste a largura conforme necessário */
+    text-align: left;
+}
+
+/* Altere a cor do texto dentro da faixa */
+.course-details p {
+    margin: 0; /* Remove a margem padrão dos parágrafos */
+    color: #fafafa; /* Altere para a cor desejada */
+}
+.dropdown-courses:hover .course-details {
+    display: block; /* Exibe a faixa quando o cursor está sobre o botão */
+}
+
+button {
+    background: #013299;
+    border: none;
+    padding: 9px 10px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative; /* Para que o .course-details possa ser posicionado relativamente ao botão */
+}
+
+button:hover {
+    background: #001077;
+}
+
+/* Outras regras CSS */
+.color-blue {
+    color: #013299;
+    font-weight: 500;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Define a exibição inicial das faixas de detalhes e outros elementos */
+.dropdown-menu-courses-1,
+.dropdown-menu-courses-2,
+.dropdown-menu-courses-3,
+.dropdown-menu-courses-4,
+.dropdown-menu-courses-5,
+.dropdown-menu-courses-6,
+.dropdown-menu-courses-7,
+.dropdown-menu-courses-8,
+.dropdown-menu-courses-9,
+.dropdown-menu-courses-10,
+.dropdown-menu-courses-11,
+.dropdown-menu-courses-12,
+.dropdown-menu-courses-13,
+.dropdown-menu-courses-14,
+.dropdown-menu-courses-15,
+.dropdown-menu-courses-16,
+.dropdown-menu-courses-17 {
+    position: relative;
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+}
+
+.dropdown-close-switch-1,
+.dropdown-close-switch-2,
+.dropdown-close-switch-3,
+.dropdown-close-switch-4,
+.dropdown-close-switch-5,
+.dropdown-close-switch-6,
+.dropdown-close-switch-7,
+.dropdown-close-switch-8,
+.dropdown-close-switch-9,
+.dropdown-close-switch-10,
+.dropdown-close-switch-11,
+.dropdown-close-switch-12,
+.dropdown-close-switch-13,
+.dropdown-close-switch-14,
+.dropdown-close-switch-15,
+.dropdown-close-switch-16,
+.dropdown-close-switch-17 {
+    display: none;
+    background: #013299;
+    border: none;
+}
+
+.dropdown-menu-courses-1.active,
+.dropdown-menu-courses-2.active,
+.dropdown-menu-courses-3.active,
+.dropdown-menu-courses-4.active,
+.dropdown-menu-courses-5.active,
+.dropdown-menu-courses-6.active,
+.dropdown-menu-courses-7.active,
+.dropdown-menu-courses-8.active,
+.dropdown-menu-courses-9.active,
+.dropdown-menu-courses-10.active,
+.dropdown-menu-courses-11.active,
+.dropdown-menu-courses-12.active,
+.dropdown-menu-courses-13.active,
+.dropdown-menu-courses-14.active,
+.dropdown-menu-courses-15.active,
+.dropdown-menu-courses-16.active,
+.dropdown-menu-courses-17.active {
+    display: block;
+}
+
+.dropdown-close-switch-1.active,
+.dropdown-close-switch-2.active,
+.dropdown-close-switch-3.active,
+.dropdown-close-switch-4.active,
+.dropdown-close-switch-5.active,
+.dropdown-close-switch-6.active,
+.dropdown-close-switch-7.active,
+.dropdown-close-switch-8.active,
+.dropdown-close-switch-9.active,
+.dropdown-close-switch-10.active,
+.dropdown-close-switch-11.active,
+.dropdown-close-switch-12.active,
+.dropdown-close-switch-13.active,
+.dropdown-close-switch-14.active,
+.dropdown-close-switch-15.active,
+.dropdown-close-switch-16.active,
+.dropdown-close-switch-17.active {
+    display: block;
+}
+
+.dropdown-toggle-1.active,
+.dropdown-toggle-8.active,
+.dropdown-toggle-2.active,
+.dropdown-toggle-3.active,
+.dropdown-toggle-4.active,
+.dropdown-toggle-5.active,
+.dropdown-toggle-6.active,
+.dropdown-toggle-7.active,
+.dropdown-toggle-8.active,
+.dropdown-toggle-9.active,
+.dropdown-toggle-10.active,
+.dropdown-toggle-11.active,
+.dropdown-toggle-12.active,
+.dropdown-toggle-13.active,
+.dropdown-toggle-14.active,
+.dropdown-toggle-15.active,
+.dropdown-toggle-16.active,
+.dropdown-toggle-17.active,
+.dropdown-toggle-18.active,
+.dropdown-toggle-19.active {
+    display: none;
+}
+
+.logo {
+    width: 130px;
+}
+
+.text-blue {
+    color: #013299;
+}
+
+.bg-blue {
+    background: #013299;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-header h3 {
+    font-size: 2.5rem; /* Tamanho do texto */
+    font-weight: bold; /* Peso da fonte */
+    color: #013299; /* Cor do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    position: relative; /* Para adicionar o efeito de linha embaixo */
+    margin: 0; /* Remove a margem padrão */
+  }
+  
+  .section-header h3::before {
+    content: ''; /* Adiciona um elemento fictício */
+    display: block;
+    width: 80px; /* Largura da linha */
+    height: 4px; /* Altura da linha */
+    background: #f4a300; /* Cor da linha */
+    margin: 10px auto; /* Centraliza a linha e adiciona margem */
+    border-radius: 2px; /* Arredondamento das bordas da linha */
+  }
+  
+  .section-header h3::after {
+    content: ''; /* Adiciona um elemento fictício */
+    display: block;
+    width: 50px; /* Largura do ícone */
+    height: 50px; /* Altura do ícone */
+    background: url('path/to/icon.png') no-repeat center center; /* Adiciona um ícone como plano de fundo */
+    background-size: contain; /* Ajusta o tamanho do ícone */
+    position: absolute; /* Posiciona o ícone relativo ao título */
+    top: 100%; /* Posiciona o ícone abaixo do título */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza o ícone horizontalmente */
+    margin-top: 10px; /* Margem entre o título e o ícone */
+  }
+
+
+
+
+
+ 

@@ -1,0 +1,106 @@
+button {
+	background:#013299; 
+	border: none;
+	padding: 9px 10px;
+	color: #fff;
+	border-radius: 5px;
+}
+button:hover {
+	background:#001077;
+}
+.dropdown-courses{
+	position: relative;
+	width: 100%
+}
+.color-blue{
+	color: #013299;
+    font-weight: 500;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 6px; 
+}
+.dropdown-menu-courses,
+.dropdown-menu-courses-2,
+.dropdown-menu-courses-3,
+.dropdown-menu-courses-4,
+.dropdown-menu-courses-5,
+.dropdown-menu-courses-6,
+.dropdown-menu-courses-7,
+.dropdown-menu-courses-8,
+.dropdown-menu-courses-9,
+.dropdown-menu-courses-10,
+.dropdown-menu-courses-11{
+	position: relative;
+	width: 100%;
+	display: none;
+	margin-top: 5px;
+}
+.dropdown-close-switch,
+.dropdown-close-switch-2,
+.dropdown-close-switch-3,
+.dropdown-close-switch-4,
+.dropdown-close-switch-5,
+.dropdown-close-switch-6,
+.dropdown-close-switch-7,
+.dropdown-close-switch-8,
+.dropdown-close-switch-9,
+.dropdown-close-switch-10,
+.dropdown-close-switch-11{
+	display: none;
+	background:#013299; 
+	border: none
+}
+.dropdown-menu-courses.active,
+.dropdown-menu-courses-2.active,
+.dropdown-menu-courses-3.active,
+.dropdown-menu-courses-4.active,
+.dropdown-menu-courses-5.active,
+.dropdown-menu-courses-6.active,
+.dropdown-menu-courses-7.active,
+.dropdown-menu-courses-8.active,
+.dropdown-menu-courses-9.active,
+.dropdown-menu-courses-10.active,
+.dropdown-menu-courses-11.active{
+	display: block;
+}
+ .dropdown-close-switch.active,
+.dropdown-close-switch-2.active,
+.dropdown-close-switch-3.active,
+.dropdown-close-switch-4.active,
+.dropdown-close-switch-5.active,
+.dropdown-close-switch-6.active,
+.dropdown-close-switch-7.active,
+.dropdown-close-switch-8.active,
+.dropdown-close-switch-9.active,
+.dropdown-close-switch-10.active,
+.dropdown-close-switch-11.active{
+	display: block;
+}
+
+ .dropdown-toggle-1.active,
+ .dropdown-toggle-8.active,
+ .dropdown-toggle-2.active,
+ .dropdown-toggle-3.active,
+ .dropdown-toggle-4.active,
+ .dropdown-toggle-5.active,
+ .dropdown-toggle-6.active,
+ .dropdown-toggle-7.active,
+ .dropdown-toggle-8.active,
+ .dropdown-toggle-9.active,
+ .dropdown-toggle-10.active,
+ .dropdown-toggle-11.active{
+	display: none;
+}
+.logo{
+	width: 130px;
+}
+	  	
+	.text-blue{
+		color: #013299
+	}
+	.bg-blue{
+		background: #013299
+	}
+	.icon{
+		font-size: 50px;
+	}

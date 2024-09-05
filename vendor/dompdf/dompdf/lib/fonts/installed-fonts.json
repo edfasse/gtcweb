@@ -1,0 +1,35 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_d13371e5ecc1da9290f306828164c82d"
+    },
+    "font awesome 6 free": {
+        "normal": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/font_awesome_6_free_normal_06c2468abaa5c742ce8cd1b1c9d92927",
+        "900": "font_awesome_6_free_900_55f85919f3cb3770d3afcd8f871b24ff"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_e7db1e8a6b5146e3c75e11da70947ab1"
+    },
+    "font awesome 5 free": {
+        "900": "font_awesome_5_free_900_4cb89e4e99251f7044032bba579516cf",
+        "normal": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/font_awesome_5_free_normal_f2d79a094f38b3366b1d688a49c36b9f"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_727d4dd15bb4a9087b29b9eb92224f2f"
+    },
+    "nunito": {
+        "200_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_200_italic_c6fe6163fa53ae06c4d278afb09f1d1e",
+        "300_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_300_italic_5564b019de9ee757b8e74969231a39c6",
+        "italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_italic_7a5e338072de710d78e80a0b7b676e13",
+        "600_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_600_italic_70540b8497fcdcad67439a1da170a6cd",
+        "bold_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_bold_italic_f7385ade290a5e83b60b5666bb14efdd",
+        "800_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_800_italic_18f05207d6823bed1efe267692280109",
+        "900_italic": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_900_italic_7d0c00015d678bd782d128e933b0098e",
+        "200": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_200_0e1804460d708a8c8812dd2bb9a9d89f",
+        "300": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_300_ee9ff98a878d2bcec5ac60166e67ac59",
+        "normal": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_normal_51264aea5373c13e99081e0e39bbfb0d",
+        "600": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_600_260a41cb865a0435c462e0b12cc10190",
+        "bold": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_bold_a3fe31648353394ca5aaeaff65373ead",
+        "800": "C:\\laragon\\www\\mvc\\vendor\\dompdf\\dompdf\/lib\/fonts\/nunito_800_85511e1b9b7db85c1ab58555a3c6922c",
+        "900": "nunito_900_cc18120a1ee07e8f88043c57178bd0cc"
+    }
+}
